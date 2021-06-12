@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<maven2 plugin="maven-plugin@3.8">
+  <actions/>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <reporters/>
+  <displayName>Sysfoo Demo App</displayName>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <relativePath></relativePath>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <plugin>false</plugin>
+      <scope>test</scope>
+      <type>jar</type>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+      <plugin>false</plugin>
+      <scope>compile</scope>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
+  <children/>
+</maven2>
